@@ -1,31 +1,101 @@
+@import url("https://www.cssfontstack.com/");
+
+body {
+    font-family: "Avant Garde", "Century Gothic", "Geneva", sans-serif;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.home-title {
+    font-family: "Helvetica", "Lucida Grande", "Tahoma", sans-serif;
+    font-size: 4em;
+}
+
+.book, .join {
+    font-size: 20px;
+}
+
+.msg p {
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+nav a {
+    padding: 10px 35px;
+}
+
+.book, .join {
+    padding: 15px 30px;
+    margin-top: 50px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+.msg {
+    padding: 35px;
+}
+
+.msg p {
+    padding-bottom: 15px;
+}
+
+footer {
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+.book, .join {
+    border-radius: 5px;
+}
+
+.card-img {
+    border: 12px solid #C78283; 
+}
+
+main section img {
+    box-sizing: border-box;
+}
 :root {
-    --primary-color: #C78283;
-    --secondary-color: #F3D9DC;
-    --accent1-color: #D7BEA8;
-    --accent2-color: #B49286;
-    --accent3-color: #744253;
-  
-    --heading-font: "Merriweather", serif;
-    --paragraph-font: 'Lato', sans-serif;
-  
-    --headline-color-on-white: #C78283;
-    --headline-color-on-color: #F3D9DC;
-    --paragraph-color-on-white: #D7BEA8;
-    --paragraph-color-on-color: #F3D9DC;
-    --paragraph-background-color: #D7BEA8;
-    --nav-link-color: #B49286;
-    --nav-background-color: #744253;
-    --nav-hover-link-color: #B49286;
-    --nav-hover-background-color: #744253;
-  }
-  
-  /* Look around below...but DON'T CHANGE ANYTHING! */
+  --primary-color: #C78283;
+  --secondary-color: #F3D9DC;
+  --accent1-color: #D7BEA8;
+  --accent2-color: #B49286;
+  --accent3-color: #744253;
+  --heading-font: "Avant Garde", serif;
+  --paragraph-font: "Lucida Grande", sans-serif;
+  --headline-color-on-white: #C78283;
+  --headline-color-on-color: #F3D9DC;
+  --paragraph-color-on-white: #D7BEA8;
+  --paragraph-color-on-color: #F3D9DC;
+  --paragraph-background-color: #D7BEA8;
+  --nav-link-color: #B49286;
+  --nav-background-color: #744253;
+  --nav-hover-link-color: #B49286;
+  --nav-hover-background-color: #744253;
+}
+
   
   body {
     max-width: 960px;
     margin: 0 auto;
-    padding: 4em;
-    font-size: 18px;
+    padding: 5em;
+    font-size: 20px;
     text-align: center;
   }
   
